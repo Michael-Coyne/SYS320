@@ -1,0 +1,2 @@
+#!/bin/bash
+ip addr | grep "inet 192.168.182.128/24" | cut -c 5-27
